@@ -1,5 +1,7 @@
 # Ejercicios-con-Python
- 
+
+## Descripción
+
 ¡Bienvenido al repositorio de Ejercicios con Python! Este repositorio ha sido diseñado como una colección de problemas y ejercicios de programación en Python para ayudar a los desarrolladores a mejorar sus habilidades de codificación. Ya seas un principiante que está dando sus primeros pasos en la programación o un programador experimentado que busca desafíos adicionales, aquí encontrarás ejercicios adecuados para todos los niveles.
 
 ## Objetivos del Repositorio
