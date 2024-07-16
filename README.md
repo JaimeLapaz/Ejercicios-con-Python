@@ -13,7 +13,7 @@
 El repositorio está organizado en diferentes carpetas, cada una correspondiente a un tema específico:
 
 - **[Variables, Operadores, Expresiones, Condicionales y Bucles:](/01_Variables_Operadores_Expresiones_Condicionales_Bucles/)** Ejercicios para familiarizarse con los fundamentos de Python.
-- **Funciones:** Práctica en la creación y utilización de funciones.
+- **[Funciones:](/02_Funciones/)** Práctica en la creación y utilización de funciones.
 - **Listas, Tuplas, Conjuntos, Diccionarios:** Problemas relacionados con las estructuras de datos básicas.
 - **Más Diccionarios, Listas, Tuplas, Conjuntos:** Ejercicios adicionales sobre estructuras de datos.
 - **Nivel Avanzado en Listas, Diccionarios, Tuplas y Conjuntos:** Problemas más complejos para poner a prueba tus conocimientos.
@@ -45,13 +45,17 @@ Dejo el documento con todos los enunciados en el siguiente enlace: [Lista de eje
 ## Cómo Usar Este Repositorio
 
 1. **Clona el repositorio:** 
+
     ```bash
     git clone https://github.com/tu_usuario/ejercicios-con-python.git
     ```
+
 2. **Navega a la carpeta del ejercicio deseado:**
+
     ```bash
     cd ejercicios-con-python/variables-operadores-expresiones
     ```
+
 3. **Lee las instrucciones:** Cada carpeta contiene un archivo `README.md` con la descripción del ejercicio y cualquier requisito adicional.
 4. **Resuelve el ejercicio:** Crea tu solución en un archivo `.py` nuevo.
 5. **Comparte y discute:** Si deseas, puedes hacer un pull request con tu solución o discutir diferentes enfoques en la sección de issues del repositorio.

@@ -22,7 +22,7 @@
 
 10. Hacer un programa que muestre el siguiente dibujo:
 
-    ```
+    ```text
     *  *  *  *  *  *  *  *  *  *
     *  *  *  *  *  *  *  *  *  *
     *  *  *  *  *  *  *  *  *  *
@@ -32,7 +32,7 @@
 
 11. Hacer un programa donde se muestre el siguiente dibujo:
 
-    ```
+    ```text
     *  *  *  *  *  *  *  *  *  *
     *                          *
     *                          *
@@ -42,7 +42,7 @@
 
 12. Hacer un programa que muestre el siguiente dibujo:
 
-    ```
+    ```text
     *
     *    *
     *    *    *
@@ -52,7 +52,7 @@
 
 13. Idem anterior con este dibujo:
 
-    ```
+    ```text
     *    *    *    *    *
     *    *    *    *
     *    *    *
@@ -62,64 +62,64 @@
 
 ## Funciones
 
-14. Crear una función `EscribirCentrado`, que reciba como parámetro un texto y lo escriba centrado en pantalla (suponiendo una anchura de 80 columnas; pista: deberás escribir 40 - longitud/2 espacios antes del texto). Además, subraya el mensaje utilizando el carácter `=`.
+1. Crear una función `EscribirCentrado`, que reciba como parámetro un texto y lo escriba centrado en pantalla (suponiendo una anchura de 80 columnas; pista: deberás escribir 40 - longitud/2 espacios antes del texto). Además, subraya el mensaje utilizando el carácter `=`.
 
-15. Crear un programa que pida dos números enteros al usuario y diga si alguno de ellos es múltiplo del otro. Crear una función `EsMultiplo` que reciba los dos números y devuelva si el primero es múltiplo del segundo.
+2. Crear un programa que pida dos números enteros al usuario y diga si alguno de ellos es múltiplo del otro. Crear una función `EsMultiplo` que reciba los dos números y devuelva si el primero es múltiplo del segundo.
 
-16. Crear una función que calcule la temperatura media de un día a partir de la temperatura máxima y mínima. Crear un programa principal que utilice esta función, pidiendo la temperatura máxima y mínima de cada día y mostrando la media. El programa pedirá el número de días que se van a introducir.
+3. Crear una función que calcule la temperatura media de un día a partir de la temperatura máxima y mínima. Crear un programa principal que utilice esta función, pidiendo la temperatura máxima y mínima de cada día y mostrando la media. El programa pedirá el número de días que se van a introducir.
 
-17. Crear una función `ConvertirEspaciado` que reciba como parámetro un texto y devuelva una cadena con un espacio adicional tras cada letra. Por ejemplo, "Hola, tú" devolverá "H o l a , t ú". Crear un programa principal donde se use dicha función.
+4. Crear una función `ConvertirEspaciado` que reciba como parámetro un texto y devuelva una cadena con un espacio adicional tras cada letra. Por ejemplo, "Hola, tú" devolverá "H o l a , t ú". Crear un programa principal donde se use dicha función.
 
-18. Crear una función `calcularMaxMin` que reciba una lista con valores numéricos y devuelva el valor máximo y el mínimo. Crear un programa que pida números por teclado y muestre el máximo y el mínimo utilizando esta función.
+5. Crear una función `calcularMaxMin` que reciba una lista con valores numéricos y devuelva el valor máximo y el mínimo. Crear un programa que pida números por teclado y muestre el máximo y el mínimo utilizando esta función.
 
-19. Diseñar una función que calcule el área y el perímetro de una circunferencia. Utiliza esta función en un programa principal que lea el radio de una circunferencia y muestre su área y perímetro.
+6. Diseñar una función que calcule el área y el perímetro de una circunferencia. Utiliza esta función en un programa principal que lea el radio de una circunferencia y muestre su área y perímetro.
 
-20. Crear una subrutina llamada `Login`, que recibe un nombre de usuario y una contraseña y te devuelve Verdadero si el nombre de usuario es "usuario1" y la contraseña es "asdasd". Además, recibe el número de intentos que se ha intentado hacer login y si no se ha podido hacer login incremente este valor. Crear un programa principal donde se pida un nombre de usuario y una contraseña e intente hacer login, solamente tenemos tres oportunidades para intentarlo.
+7. Crear una subrutina llamada `Login`, que recibe un nombre de usuario y una contraseña y te devuelve Verdadero si el nombre de usuario es "usuario1" y la contraseña es "asdasd". Además, recibe el número de intentos que se ha intentado hacer login y si no se ha podido hacer login incremente este valor. Crear un programa principal donde se pida un nombre de usuario y una contraseña e intente hacer login, solamente tenemos tres oportunidades para intentarlo.
 
-21. Crear una función recursiva que permita calcular el factorial de un número. Realiza un programa principal donde se lea un entero y se muestre el resultado del factorial.
+8. Crear una función recursiva que permita calcular el factorial de un número. Realiza un programa principal donde se lea un entero y se muestre el resultado del factorial.
 
-22. Crear una función que calcule el MCD de dos números por el método de Euclides. El método de Euclides es el siguiente:
+9. Crear una función que calcule el MCD de dos números por el método de Euclides. El método de Euclides es el siguiente:
     - Se divide el número mayor entre el menor.
     - Si la división es exacta, el divisor es el MCD.
     - Si la división no es exacta, dividimos el divisor entre el resto obtenido y se continúa de esta forma hasta obtener una división exacta, siendo el último divisor el MCD.
     - Crear un programa principal que lea dos números enteros y muestre el MCD.
 
-23. Escribir dos funciones que permitan calcular:
+10. Escribir dos funciones que permitan calcular:
     - La cantidad de segundos en un tiempo dado en horas, minutos y segundos.
     - La cantidad de horas, minutos y segundos de un tiempo dado en segundos.
     - Escribir un programa principal con un menú donde se pueda elegir la opción de convertir a segundos, convertir a horas, minutos y segundos, o salir del programa.
 
-24. El día juliano correspondiente a una fecha es un número entero que indica los días que han transcurrido desde el 1 de enero del año indicado. Queremos crear un programa principal que al introducir una fecha nos diga el día juliano que corresponde. Para ello podemos hacer las siguientes subrutinas:
+11. El día juliano correspondiente a una fecha es un número entero que indica los días que han transcurrido desde el 1 de enero del año indicado. Queremos crear un programa principal que al introducir una fecha nos diga el día juliano que corresponde. Para ello podemos hacer las siguientes subrutinas:
     - `LeerFecha`: Nos permite leer por teclado una fecha (día, mes y año).
     - `DiasDelMes`: Recibe un mes y un año y nos dice los días de ese mes en ese año.
     - `EsBisiesto`: Recibe un año y nos dice si es bisiesto.
     - `Calcular_Dia_Juliano`: Recibe una fecha y nos devuelve el día juliano.
 
-25. Vamos a mejorar el ejercicio anterior haciendo una función para validar la fecha, de tal forma que al leer una fecha se asegure que es válida.
+12. Vamos a mejorar el ejercicio anterior haciendo una función para validar la fecha, de tal forma que al leer una fecha se asegure que es válida.
 
-26. Queremos crear un programa que trabaje con fracciones a/b. Para representar una fracción vamos a utilizar dos enteros: numerador y denominador.
+13. Queremos crear un programa que trabaje con fracciones a/b. Para representar una fracción vamos a utilizar dos enteros: numerador y denominador.
 
-27. Definir una función `max()` que tome como argumento dos números y devuelva el mayor de ellos. (Es cierto que Python tiene una función `max()` incorporada, pero hacerla nosotros mismos es un muy buen ejercicio).
+14. Definir una función `max()` que tome como argumento dos números y devuelva el mayor de ellos. (Es cierto que Python tiene una función `max()` incorporada, pero hacerla nosotros mismos es un muy buen ejercicio).
 
-28. Definir una función `max_de_tres()`, que tome tres números como argumentos y devuelva el mayor de ellos.
+15. Definir una función `max_de_tres()`, que tome tres números como argumentos y devuelva el mayor de ellos.
 
-29. Definir una función que calcule la longitud de una lista o una cadena dada. (Es cierto que Python tiene la función `len()` incorporada, pero escribirla por nosotros mismos resulta un muy buen ejercicio).
+16. Definir una función que calcule la longitud de una lista o una cadena dada. (Es cierto que Python tiene la función `len()` incorporada, pero escribirla por nosotros mismos resulta un muy buen ejercicio).
 
-30. Escribir una función que tome un carácter y devuelva `True` si es una vocal, de lo contrario devuelve `False`.
+17. Escribir una función que tome un carácter y devuelva `True` si es una vocal, de lo contrario devuelve `False`.
 
-31. Escribir una función `sum()` y una función `multip()` que sumen y multipliquen respectivamente todos los números de una lista. Por ejemplo: `sum([1, 2, 3, 4])` debería devolver 10 y `multip([1, 2, 3, 4])` debería devolver 24.
+18. Escribir una función `sum()` y una función `multip()` que sumen y multipliquen respectivamente todos los números de una lista. Por ejemplo: `sum([1, 2, 3, 4])` debería devolver 10 y `multip([1, 2, 3, 4])` debería devolver 24.
 
-32. Definir una función `inversa()` que calcule la inversión de una cadena. Por ejemplo, la cadena "estoy probando" debería devolver la cadena "odnaborp yotse".
+19. Definir una función `inversa()` que calcule la inversión de una cadena. Por ejemplo, la cadena "estoy probando" debería devolver la cadena "odnaborp yotse".
 
-33. Definir una función `es_palindromo()` que reconozca palíndromos (es decir, palabras que tienen el mismo aspecto escritas invertidas). Ejemplo: `es_palindromo("radar")` debería devolver `True`.
+20. Definir una función `es_palindromo()` que reconozca palíndromos (es decir, palabras que tienen el mismo aspecto escritas invertidas). Ejemplo: `es_palindromo("radar")` debería devolver `True`.
 
-34. Definir una función `superposicion()` que tome dos listas y devuelva `True` si tienen al menos un miembro en común o devuelva `False` de lo contrario. Escribir la función usando el bucle `for` anidado.
+21. Definir una función `superposicion()` que tome dos listas y devuelva `True` si tienen al menos un miembro en común o devuelva `False` de lo contrario. Escribir la función usando el bucle `for` anidado.
 
-35. Definir una función `generar_n_caracteres()` que tome un entero n y devuelva el carácter multiplicado por n. Por ejemplo: `generar_n_caracteres(5, "x")` debería devolver "xxxxx".
+22. Definir una función `generar_n_caracteres()` que tome un entero n y devuelva el carácter multiplicado por n. Por ejemplo: `generar_n_caracteres(5, "x")` debería devolver "xxxxx".
 
-36. Definir un procedimiento `histograma()` que tome una lista de números enteros e imprima un histograma en la pantalla. Ejemplo: `histograma([4, 9, 7])` debería imprimir lo siguiente:
+23. Definir un procedimiento `histograma()` que tome una lista de números enteros e imprima un histograma en la pantalla. Ejemplo: `histograma([4, 9, 7])` debería imprimir lo siguiente:
 
-    ```
+    ```text
     ****
     *********
     *******
@@ -303,7 +303,7 @@ en realidad ingresaron el 14/03/2018.
 
 ## Nivel avanzado en listas, diccionarios, tuplas y conjuntos
 
-### Diccionarios y Listas:
+### Diccionarios y Listas
 
 93. Crea un programa que gestione una lista de usuarios, donde cada usuario es un diccionario con nombre, correo electrónico y una lista de pedidos realizados (almacenados como diccionarios con detalles de productos).
 
@@ -311,7 +311,7 @@ en realidad ingresaron el 14/03/2018.
 
 95. Diseña un programa que almacene información sobre películas en un diccionario, donde cada película tiene un título, una lista de actores principales y una tupla con la fecha de lanzamiento y la duración.
 
-96. Desarrolla una función que encuentre el empleado con el salario más alto en una lista 
+96. Desarrolla una función que encuentre el empleado con el salario más alto en una lista
 de empleados (diccionarios) y muestre su información.
 
 97. Escribe un programa que gestione un diccionario de productos, donde cada producto tiene un nombre y una lista de revisiones de usuarios (almacenadas como diccionarios con comentarios y calificaciones).
