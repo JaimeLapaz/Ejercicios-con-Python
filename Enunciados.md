@@ -127,7 +127,7 @@
 
 ## Listas, tuplas, conjuntos, diccionarios
 
-37. Realiza los siguientes apartados:
+1. Realiza los siguientes apartados:
 
 - A) Solicitar al usuario que ingrese números, los cuales se guardarán en una lista. Finalizar al ingresar el número 0, el cual no debe guardarse.
 
@@ -138,7 +138,7 @@
 
 - E) Generar e imprimir una nueva lista que contenga como elementos a tuplas de dos elementos, cada una compuesta por un número de la lista original y la cantidad de veces que aparece en ella. Por ejemplo, si la lista original es `[5, 16, 2, 5, 57, 5, 2]` la nueva lista contendrá: `[(5, 3), (16, 1), (2, 2), (57, 1)]`.
 
-38. Escribir un programa que permita procesar datos de pasajeros de viaje en una lista de tuplas con la siguiente forma: (nombre, dni, destino). Ejemplo:
+2. Escribir un programa que permita procesar datos de pasajeros de viaje en una lista de tuplas con la siguiente forma: (nombre, dni, destino). Ejemplo:
 
 ```python
    [("Manuel Juarez", 19823451, "Liverpool"), ("Silvana Paredes", 22709128, "Buenos Aires"), ("Rosa Ortiz", 15123978, "Glasgow"), ("Luciana Hernandez", 38981374, "Lisboa")]
@@ -160,13 +160,13 @@ Hacer un menú iterativo que permita al usuario realizar las siguientes operacio
 - Dado un país, mostrar cuántos pasajeros viajan a ese país.
 - Salir del programa.
 
-39. Solicitar al usuario que ingrese los nombres de pila de los alumnos de nivel primario de una escuela, finalizando al ingresar “x”. A continuación, solicitar que ingrese los nombres de los alumnos de nivel secundario, finalizando al ingresar “x”.
+3. Solicitar al usuario que ingrese los nombres de pila de los alumnos de nivel primario de una escuela, finalizando al ingresar “x”. A continuación, solicitar que ingrese los nombres de los alumnos de nivel secundario, finalizando al ingresar “x”.
 
 - Informar los nombres de todos los alumnos de nivel primario y los de nivel secundario, sin repeticiones.
 - Informar qué nombres se repiten entre los alumnos de nivel primario y secundario.
 - Informar qué nombres de nivel primario no se repiten en los de nivel secundario.
 
-40. Suponer una lista con datos de las compras hechas por clientes de una empresa a lo largo de un mes, la cual contiene tuplas con información de cada venta: (cliente, día del mes, monto, domicilio del cliente). Ejemplo:
+4. Suponer una lista con datos de las compras hechas por clientes de una empresa a lo largo de un mes, la cual contiene tuplas con información de cada venta: (cliente, día del mes, monto, domicilio del cliente). Ejemplo:
 
    ```python
    [("Nuria Costa", 5, 12780.78, "Calle Las Flores 355"), ("Jorge Russo", 7, 699, "Mirasol 218"), ("Nuria Costa", 7, 532.90, "Calle Las Flores 355"), ("Julián Rodriguez", 12, 5715.99, "La Mancha 761"), ("Jorge Russo", 15, 958, "Mirasol 218")]
@@ -174,10 +174,10 @@ Hacer un menú iterativo que permita al usuario realizar las siguientes operacio
 
 Escribir una función que reciba como parámetro una lista con el formato mencionado anteriormente y retorne los domicilios de cada cliente al cual se le debe enviar una factura de compra. Notar que cada cliente puede haber hecho más de una compra en el mes, por lo que la función debe retornar una estructura que contenga cada domicilio una sola vez.
 
-41. Escribir un programa que procese strings ingresados por el usuario. La lectura finaliza cuando se hayan procesado 50 strings. Al finalizar, informar la cantidad total de ocurrencias de cada carácter, en todos los strings ingresados. Ejemplo: "r":5, "%":3, "a":8, "9":1.
+5. Escribir un programa que procese strings ingresados por el usuario. La lectura finaliza cuando se hayan procesado 50 strings. Al finalizar, informar la cantidad total de ocurrencias de cada carácter, en todos los strings ingresados. Ejemplo: "r":5, "%":3, "a":8, "9":1.
 ¿Cómo se podrían informar las ocurrencias de las letras del alfabeto únicamente, incluyendo el valor 0 para las letras que no aparecieron?
 
-42. Crear un programa para gestionar datos de los socios de un club, permitiendo:
+6. Crear un programa para gestionar datos de los socios de un club, permitiendo:
 
 - Cargar información de los socios en un diccionario para acceder por número de socio. Los datos a almacenar son: número, nombre y apellido, fecha de ingreso (ddmmaaaa), cuota al día (s/n). El programa debe iniciar con los datos de los socios fundadores ya cargados:
   - Socio nº1, Amanda Núñez, ingresó: 17/03/2009, cuota al día.
@@ -191,65 +191,65 @@ en realidad ingresaron el 14/03/2018.
 - Solicitar el nombre y apellido de un socio y darlo de baja (eliminarlo del listado).
 - Imprimir el listado de socios completo.
 
-43. **Contar Elementos**: Escribe una función que cuente cuántas veces aparece cada elemento en una lista y lo almacene en un diccionario.
+7. **Contar Elementos**: Escribe una función que cuente cuántas veces aparece cada elemento en una lista y lo almacene en un diccionario.
 
-44. **Calcular Promedio**: Dado un diccionario de estudiantes y sus calificaciones, calcula el promedio de calificaciones.
+8. **Calcular Promedio**: Dado un diccionario de estudiantes y sus calificaciones, calcula el promedio de calificaciones.
 
-45. **Filtrar por Valor**: Escribe una función que filtre un diccionario de estudiantes para obtener solo aquellos que hayan aproba
+9. **Filtrar por Valor**: Escribe una función que filtre un diccionario de estudiantes para obtener solo aquellos que hayan aproba
 
-46. **Unir Diccionarios**: Combina dos diccionarios en uno solo.
+10. **Unir Diccionarios**: Combina dos diccionarios en uno solo.
 
-47. **Contar Palabras**: Dada una cadena de texto, crea un diccionario que cuente cuántas veces aparece cada palabra.
+11. **Contar Palabras**: Dada una cadena de texto, crea un diccionario que cuente cuántas veces aparece cada palabra.
 
-48. **Eliminar Duplicados**: Elimina los elementos duplicados de una lista y almacénalos en un diccionario.
+12. **Eliminar Duplicados**: Elimina los elementos duplicados de una lista y almacénalos en un diccionario.
 
-49. **Valor Mínimo y Máximo**: Encuentra el valor mínimo y máximo en un diccionario de números.
+13. **Valor Mínimo y Máximo**: Encuentra el valor mínimo y máximo en un diccionario de números.
 
-50. **Eliminar Claves**: Escribe una función que elimine las claves de un diccionario si su valor es mayor que un cierto umbral.
+14. **Eliminar Claves**: Escribe una función que elimine las claves de un diccionario si su valor es mayor que un cierto umbral.
 
-51. **Invertir Diccionario**: Crea una función que invierta las claves y los valores en un diccionario.
+15. **Invertir Diccionario**: Crea una función que invierta las claves y los valores en un diccionario.
 
-52. **Calcular Histograma**: Crea un histograma de letras a partir de una cadena de texto.
+16. **Calcular Histograma**: Crea un histograma de letras a partir de una cadena de texto.
 
-53. **Diccionario Anidado**: Trabaja con un diccionario anidado que represente datos de una tienda, como productos y precios.
+17. **Diccionario Anidado**: Trabaja con un diccionario anidado que represente datos de una tienda, como productos y precios.
 
-54. **Contar Vocales**: Cuenta cuántas vocales hay en una cadena de texto y almacena el resultado en un diccionario.
+18. **Contar Vocales**: Cuenta cuántas vocales hay en una cadena de texto y almacena el resultado en un diccionario.
 
-55. **Ordenar Diccionario**: Ordena un diccionario por sus claves o valores.
+19. **Ordenar Diccionario**: Ordena un diccionario por sus claves o valores.
 
-56. **Diccionario Vacío**: Verifica si un diccionario está vacío o no.
+20. **Diccionario Vacío**: Verifica si un diccionario está vacío o no.
 
-57. **Buscar Clave**: Escribe una función que busque una clave en un diccionario y devuelva su valor o un mensaje de error si no se encuentra.
+21. **Buscar Clave**: Escribe una función que busque una clave en un diccionario y devuelva su valor o un mensaje de error si no se encuentra.
 
-58. **Eliminar Clave**: Elimina una clave específica de un diccionario si existe.
+22. **Eliminar Clave**: Elimina una clave específica de un diccionario si existe.
 
-59. **Diccionario de Contactos**: Crea un diccionario de contactos con nombres y números de teléfono.
+23. **Diccionario de Contactos**: Crea un diccionario de contactos con nombres y números de teléfono.
 
-60. **Unir Listas en Diccionario**: Convierte dos listas en un diccionario, utilizando una como claves y la otra como valores.
+24. **Unir Listas en Diccionario**: Convierte dos listas en un diccionario, utilizando una como claves y la otra como valores.
 
-61. **Diccionario de Frequencias**: Dada una lista de números, crea un diccionario que muestre cuántas veces aparece cada número.
+25. **Diccionario de Frequencias**: Dada una lista de números, crea un diccionario que muestre cuántas veces aparece cada número.
 
-62. **Diccionario de Traducción**: Crea un diccionario que traduzca palabras de un idioma a otro.
+26. **Diccionario de Traducción**: Crea un diccionario que traduzca palabras de un idioma a otro.
 
-63. **Registro de Ventas**: Crea un programa que registre las ventas diarias de una tienda utilizando un diccionario. El diccionario debe contener las fechas como claves y las ventas totales como valores. Utiliza una lista para almacenar los detalles de cada venta, que incluyen el producto vendido, la cantidad y el precio unitario.
+27. **Registro de Ventas**: Crea un programa que registre las ventas diarias de una tienda utilizando un diccionario. El diccionario debe contener las fechas como claves y las ventas totales como valores. Utiliza una lista para almacenar los detalles de cada venta, que incluyen el producto vendido, la cantidad y el precio unitario.
 
-64. **Puntuaciones de Jugadores**: Diseña un juego que registre las puntuaciones de múltiples jugadores. Crea un diccionario que almacene el nombre de cada jugador como clave y una tupla de sus puntuaciones como valor. Luego, permite que los jugadores agreguen nuevas puntuaciones a sus registros.
+28. **Puntuaciones de Jugadores**: Diseña un juego que registre las puntuaciones de múltiples jugadores. Crea un diccionario que almacene el nombre de cada jugador como clave y una tupla de sus puntuaciones como valor. Luego, permite que los jugadores agreguen nuevas puntuaciones a sus registros.
 
-65. **Diccionario de Estudiantes**: Crea un diccionario que almacene información sobre estudiantes, donde cada estudiante tiene un nombre, una lista de cursos en los que está inscrito y una tupla con sus calificaciones para cada curso.
+29. **Diccionario de Estudiantes**: Crea un diccionario que almacene información sobre estudiantes, donde cada estudiante tiene un nombre, una lista de cursos en los que está inscrito y una tupla con sus calificaciones para cada curso.
 
-66. **Inventario de Tienda**: Desarrolla un programa que administre el inventario de una tienda. Utiliza un diccionario para almacenar los productos como claves y sus detalles (precio, cantidad en stock, etc.) como valores. Permite que los usuarios agreguen nuevos productos y actualicen la información existente.
+30. **Inventario de Tienda**: Desarrolla un programa que administre el inventario de una tienda. Utiliza un diccionario para almacenar los productos como claves y sus detalles (precio, cantidad en stock, etc.) como valores. Permite que los usuarios agreguen nuevos productos y actualicen la información existente.
 
-67. **Registro de Películas**: Crea un diccionario que contenga información sobre películas, donde cada película tiene un título, un año de lanzamiento y una lista de actores principales representados como tuplas (nombre del actor, papel en la película).
+31. **Registro de Películas**: Crea un diccionario que contenga información sobre películas, donde cada película tiene un título, un año de lanzamiento y una lista de actores principales representados como tuplas (nombre del actor, papel en la película).
 
-68. **Almacenamiento de Recetas**: Diseña un programa que gestione recetas de cocina. Utiliza un diccionario para almacenar recetas donde cada receta tiene un nombre, una lista de ingredientes (almacenados como tuplas de nombre y cantidad), y un conjunto de instrucciones.
+32. **Almacenamiento de Recetas**: Diseña un programa que gestione recetas de cocina. Utiliza un diccionario para almacenar recetas donde cada receta tiene un nombre, una lista de ingredientes (almacenados como tuplas de nombre y cantidad), y un conjunto de instrucciones.
 
-69. **Directorio Telefónico**: Crea un directorio telefónico que almacene contactos como un diccionario donde las claves son nombres y los valores son tuplas con números de teléfono y direcciones de correo electrónico.
+33. **Directorio Telefónico**: Crea un directorio telefónico que almacene contactos como un diccionario donde las claves son nombres y los valores son tuplas con números de teléfono y direcciones de correo electrónico.
 
-70. **Registro de Compras**: Desarrolla un programa para registrar compras en una tienda en línea. Utiliza un diccionario para rastrear las compras de los clientes donde cada cliente tiene un identificador único y una lista de productos comprados (almacenados como tuplas de nombre del producto y cantidad).
+34. **Registro de Compras**: Desarrolla un programa para registrar compras en una tienda en línea. Utiliza un diccionario para rastrear las compras de los clientes donde cada cliente tiene un identificador único y una lista de productos comprados (almacenados como tuplas de nombre del producto y cantidad).
 
-71. **Registro de Viajes**: Diseña una aplicación para registrar viajes. Utiliza un diccionario que almacene información sobre viajes, donde cada viaje tiene un destino, una lista de lugares visitados (almacenados como tuplas de nombre y fecha) y una descripción.
+35. **Registro de Viajes**: Diseña una aplicación para registrar viajes. Utiliza un diccionario que almacene información sobre viajes, donde cada viaje tiene un destino, una lista de lugares visitados (almacenados como tuplas de nombre y fecha) y una descripción.
 
-72. **Registro de Pedidos**: Crea un sistema de registro de pedidos para un restaurante. Utiliza un diccionario que almacene detalles de pedidos donde cada pedido tiene un número de pedido único, una lista de elementos del pedido (almacenados como tuplas de nombre del plato y cantidad), y un estado (pendiente, entregado, etc.).
+36. **Registro de Pedidos**: Crea un sistema de registro de pedidos para un restaurante. Utiliza un diccionario que almacene detalles de pedidos donde cada pedido tiene un número de pedido único, una lista de elementos del pedido (almacenados como tuplas de nombre del plato y cantidad), y un estado (pendiente, entregado, etc.).
 
 ## Mas dicionarios, listas, tuplas, conjuntos
 

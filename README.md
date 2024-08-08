@@ -14,9 +14,9 @@
 
 El repositorio está organizado en diferentes carpetas, cada una correspondiente a un tema específico:
 
-- **[Variables, Operadores, Expresiones, Condicionales y Bucles:](/01_Variables_Operadores_Expresiones_Condicionales_Bucles/)** Ejercicios para familiarizarse con los fundamentos de Python.
-- **[Funciones:](/02_Funciones/)** Práctica en la creación y utilización de funciones.
-- **Listas, Tuplas, Conjuntos, Diccionarios:** Problemas relacionados con las estructuras de datos básicas.
+- **[Variables, Operadores, Expresiones, Condicionales y Bucles:](./01_Variables_Operadores_Expresiones_Condicionales_Bucles)** Ejercicios para familiarizarse con los fundamentos de Python.
+- **[Funciones:](./02_Funciones)** Práctica en la creación y utilización de funciones.
+- **[Listas, Tuplas, Conjuntos, Diccionarios:](./03_Listas_Tuplas_Conjuntos_Diccionarios)** Problemas relacionados con las estructuras de datos básicas.
 - **Más Diccionarios, Listas, Tuplas, Conjuntos:** Ejercicios adicionales sobre estructuras de datos.
 - **Nivel Avanzado en Listas, Diccionarios, Tuplas y Conjuntos:** Problemas más complejos para poner a prueba tus conocimientos.
 - **Validación de Datos:** Ejercicios para asegurar la integridad y corrección de los datos.
