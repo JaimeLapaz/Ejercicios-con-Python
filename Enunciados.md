@@ -195,7 +195,7 @@ en realidad ingresaron el 14/03/2018.
 
 8. **Calcular Promedio**: Dado un diccionario de estudiantes y sus calificaciones, calcula el promedio de calificaciones.
 
-9. **Filtrar por Valor**: Escribe una función que filtre un diccionario de estudiantes para obtener solo aquellos que hayan aproba
+9. **Filtrar por Valor**: Escribe una función que filtre un diccionario de estudiantes para obtener solo aquellos que hayan aprobado.
 
 10. **Unir Diccionarios**: Combina dos diccionarios en uno solo.
 
