@@ -1,4 +1,4 @@
-# Ejercicios-con-Python
+# Ejercicios con Python
 
 ## Descripción
 
