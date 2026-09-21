@@ -2,74 +2,109 @@
 
 ## Descripción
 
-¡Bienvenido al repositorio de Ejercicios con Python! Este repositorio ha sido diseñado como una colección de problemas y ejercicios de programación en Python para ayudar a los desarrolladores a mejorar sus habilidades de codificación. Ya seas un principiante que está dando sus primeros pasos en la programación o un programador experimentado que busca desafíos adicionales, aquí encontrarás ejercicios adecuados para todos los niveles.
+Este repositorio reúne ejercicios de programación en Python organizados por tema y dificultad. El objetivo es practicar desde los fundamentos del lenguaje hasta estructuras de datos y algoritmos más avanzados.
 
-## Objetivos del Repositorio
+## Objetivos del repositorio
 
-1. **Aprender y practicar Python:** Ofrecer una variedad de ejercicios que cubran diferentes conceptos y técnicas de Python.
-2. **Fomentar el pensamiento algorítmico:** Desarrollar habilidades para resolver problemas de manera eficiente y estructurada.
-3. **Mejorar la capacidad de debugging:** A través de la práctica y la revisión de soluciones, fortalecer la habilidad de identificar y corregir errores en el código.
+1. **Aprender y practicar Python:** trabajar de forma progresiva los principales conceptos del lenguaje.
+2. **Fomentar el pensamiento algorítmico:** resolver problemas de forma estructurada y reutilizable.
+3. **Mejorar la capacidad de debugging:** practicar la detección, comprensión y corrección de errores.
+4. **Mantener una progresión temática clara:** cada carpeta corresponde a un concepto principal; los niveles de dificultad se mantienen dentro del mismo tema.
 
-## Estructura del Repositorio
+## Estructura del repositorio
 
-El repositorio está organizado en diferentes carpetas, cada una correspondiente a un tema específico:
+Las carpetas se organizan por **tema principal**, no por nivel de dificultad. Los subtítulos `Nivel Básico`, `Intermedio`, `Avanzado` y `Experto` de [Enunciados.md](Enunciados.md) pertenecen a la misma carpeta temática.
 
-- **[Variables, Operadores, Expresiones, Condicionales y Bucles:](./01_Variables_Operadores_Expresiones_Condicionales_Bucles)** Ejercicios para familiarizarse con los fundamentos de Python.
-- **[Funciones:](./02_Funciones)** Práctica en la creación y utilización de funciones.
-- **[Listas, Tuplas, Conjuntos, Diccionarios:](./03_Listas_Tuplas_Conjuntos_Diccionarios)** Problemas relacionados con las estructuras de datos básicas.
-- **Más Diccionarios, Listas, Tuplas, Conjuntos:** Ejercicios adicionales sobre estructuras de datos.
-- **Nivel Avanzado en Listas, Diccionarios, Tuplas y Conjuntos:** Problemas más complejos para poner a prueba tus conocimientos.
-- **Validación de Datos:** Ejercicios para asegurar la integridad y corrección de los datos.
-- **Funciones de Orden Superior:** Práctica con funciones que toman otras funciones como argumentos.
-- **Recursividad:** Problemas que se resuelven utilizando técnicas recursivas.
-- **Pilas y Colas:** Ejercicios sobre estas estructuras de datos fundamentales.
-- **Programación Orientada a Objetos (POO):** Práctica en el uso de clases y objetos en Python.
-- **Listas Enlazadas, Colas, Pilas con POO:** Implementación de estructuras de datos usando POO.
-- **Árboles:** Ejercicios sobre la implementación y uso de árboles.
-- **Árboles + Recursividad:** Problemas que combinan árboles y técnicas recursivas.
-- **Árboles + Pilas + Colas:** Ejercicios avanzados que combinan diferentes estructuras de datos.
-- **Grafos:** Problemas relacionados con la teoría de grafos y su implementación.
-- **Matrices:** Ejercicios sobre el manejo y manipulación de matrices.
-- **Funciones de Hash y Tablas:** Implementación y uso de funciones hash y tablas hash.
-- **Archivos:**
-  - **Lectura de Archivos:** Práctica en la lectura de datos desde archivos.
-  - **Escritura de Archivos:** Ejercicios sobre cómo escribir datos en archivos.
-  - **Procesamiento de Archivos:** Problemas sobre la manipulación y transformación de datos en archivos.
-  - **Estructuras de Datos:** Ejercicios que combinan archivos y estructuras de datos.
-  - **Búsquedas y Filtrado:** Problemas sobre cómo buscar y filtrar datos en archivos.
-  - **Resúmenes y Estadísticas:** Ejercicios sobre el cálculo de estadísticas a partir de datos en archivos.
-  - **Transformación de Datos:** Problemas sobre la transformación de datos en archivos.
-  - **Procesamiento Avanzado:** Ejercicios avanzados sobre el procesamiento de archivos.
-  - **Procesamiento de Grandes Volúmenes de Datos:** Problemas sobre el manejo eficiente de grandes conjuntos de datos.
+| Nº | Carpeta | Tema | Ejercicios |
+|---:|---|---|---|
+| 01 | `01_Variables_Operadores_Expresiones_Condicionales_Bucles` | Fundamentos de Python | 1–13 del primer bloque |
+| 02 | `02_Funciones` | Funciones | 1–23 del segundo bloque |
+| 03 | `03_Listas_Tuplas_Conjuntos_Diccionarios` | Listas, tuplas, conjuntos y diccionarios | 1–36 y 73–107 |
+| 04 | `04_Validacion_De_Datos` | Validación y control de entradas | 108–127 |
+| 05 | `05_Funciones_De_Orden_Superior` | Funciones de orden superior | 128–147 |
+| 06 | `06_Recursividad` | Recursividad y backtracking | 148–157 y 228–237 |
+| 07 | `07_Pilas_Y_Colas` | Pilas, colas y colas de prioridad | 158–167 y 238–247 |
+| 08 | `08_Programacion_Orientada_A_Objetos` | Clases y objetos | 168–187 |
+| 09 | `09_Estructuras_Enlazadas_Con_POO` | Listas enlazadas, pilas y colas con POO | 188–207 |
+| 10 | `10_Arboles` | Árboles y sus variantes | 208–227 |
+| 11 | `11_Grafos` | Grafos y algoritmos de grafos | 248–267 |
+| 12 | `12_Matrices` | Matrices y álgebra lineal | 268–287 |
+| 13 | `13_Hash_Y_Tablas_Hash` | Funciones hash y tablas hash | 288–307 |
+| 14 | `14_Archivos` | Lectura, escritura y procesamiento de archivos | 308–337 |
 
-Dejo el documento con todos los enunciados en el siguiente enlace: [Lista de ejercicios](Enunciados.md)
+> **Nota sobre la numeración:** los tres primeros bloques conservan la numeración histórica con la que ya están nombrados los archivos existentes. A partir del ejercicio 73, la numeración es global y continua. Se corrigió una duplicación que existía originalmente en el bloque de Grafos, por lo que los bloques posteriores terminan actualmente en el ejercicio 337.
 
-## Cómo Usar Este Repositorio
+### Árbol temático
 
-1. **Clona el repositorio:** 
+```text
+Ejercicios-con-Python/
+├── 01_Variables_Operadores_Expresiones_Condicionales_Bucles/
+├── 02_Funciones/
+├── 03_Listas_Tuplas_Conjuntos_Diccionarios/
+├── 04_Validacion_De_Datos/
+├── 05_Funciones_De_Orden_Superior/
+├── 06_Recursividad/
+├── 07_Pilas_Y_Colas/
+├── 08_Programacion_Orientada_A_Objetos/
+├── 09_Estructuras_Enlazadas_Con_POO/
+├── 10_Arboles/
+├── 11_Grafos/
+├── 12_Matrices/
+├── 13_Hash_Y_Tablas_Hash/
+├── 14_Archivos/
+├── Enunciados.md
+└── README.md
+```
 
-    ```bash
-    git clone https://github.com/tu_usuario/ejercicios-con-python.git
-    ```
+Las carpetas se irán creando conforme se avance por los ejercicios. No se crean carpetas distintas únicamente por cambiar de nivel de dificultad.
 
-2. **Navega a la carpeta del ejercicio deseado:**
+## Enunciados
 
-    ```bash
-    cd ejercicios-con-python/variables-operadores-expresiones
-    ```
+La lista completa y ordenada de ejercicios se encuentra en [Enunciados.md](Enunciados.md).
 
-3. **Lee las instrucciones:** Cada carpeta contiene un archivo `README.md` con la descripción del ejercicio y cualquier requisito adicional.
-4. **Resuelve el ejercicio:** Crea tu solución en un archivo `.py` nuevo.
-5. **Comparte y discute:** Si deseas, puedes hacer un pull request con tu solución o discutir diferentes enfoques en la sección de issues del repositorio.
+Dentro de ese archivo, los temas principales corresponden a las carpetas anteriores. Algunos temas reaparecen más adelante con ejercicios avanzados —por ejemplo Recursividad o Pilas y Colas—, pero continúan perteneciendo a su misma carpeta.
+
+## Cómo usar este repositorio
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/JaimeLapaz/Ejercicios-con-Python.git
+   ```
+
+2. Entra en la carpeta del tema que estés practicando.
+
+3. Consulta el enunciado correspondiente en `Enunciados.md`.
+
+4. Ejecuta el ejercicio:
+
+   ```bash
+   python Ejercicio_XX.py
+   ```
+
+5. Prueba casos adicionales y revisa el código antes de continuar con el siguiente bloque.
+
+## Convención de archivos
+
+Los ejercicios siguen el formato:
+
+```text
+Ejercicio_01.py
+Ejercicio_02.py
+...
+```
+
+Cada solución intenta mantener una estructura consistente:
+
+- Enunciado y solución documentados al inicio.
+- Funciones separadas cuando aportan claridad o reutilización.
+- Bloque `if __name__ == "__main__":` para ejemplos y ejecución directa.
+- Pruebas sencillas que permitan verificar el comportamiento.
 
 ## Contribuciones
 
-¡Las contribuciones son bienvenidas! Si tienes ideas para nuevos ejercicios, mejoras a los existentes, o cualquier otra sugerencia, no dudes en abrir un issue o enviar un pull request. Por favor, asegúrate de seguir las directrices de contribución y el código de conducta del repositorio.
+Las mejoras, correcciones y enfoques alternativos son bienvenidos mediante issues o pull requests.
 
 ## Contacto
 
-Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarnos a través de los issues del repositorio o directamente a [jl.jaimelapaz@gmail.com](mailto:jl.jaimelapaz@gmail.com).
-
----
-
-¡Esperamos que disfrutes resolviendo estos ejercicios y que te ayuden a convertirte en un mejor programador en Python!
+Si tienes alguna pregunta o necesitas ayuda, puedes utilizar los issues del repositorio o contactar en [jl.jaimelapaz@gmail.com](mailto:jl.jaimelapaz@gmail.com).
