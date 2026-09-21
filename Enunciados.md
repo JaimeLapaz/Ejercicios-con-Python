@@ -252,7 +252,7 @@ en realidad ingresaron el 14/03/2018.
 
 36. **Registro de Pedidos**: Crea un sistema de registro de pedidos para un restaurante. Utiliza un diccionario que almacene detalles de pedidos donde cada pedido tiene un número de pedido único, una lista de elementos del pedido (almacenados como tuplas de nombre del plato y cantidad), y un estado (pendiente, entregado, etc.).
 
-## Mas dicionarios, listas, tuplas, conjuntos
+## Listas, tuplas, conjuntos, diccionarios — continuación
 
 ### Diccionarios
 
@@ -302,7 +302,7 @@ en realidad ingresaron el 14/03/2018.
 
 92. Desarrolla una función que encuentre la subsecuencia más larga creciente en una lista de números.
 
-## Nivel avanzado en listas, diccionarios, tuplas y conjuntos
+## Listas, tuplas, conjuntos, diccionarios — nivel avanzado
 
 ### Diccionarios y Listas
 
@@ -477,7 +477,7 @@ de empleados (diccionarios) y muestre su información.
 
 167. **Simulación de Colas**: Escribe una simulación simple de una cola de autobuses que llegan y parten en intervalos de tiempo.
 
-## Programación Orientada a objetos
+## Programación Orientada a Objetos
 
 ### Nivel Básico
 
@@ -523,7 +523,7 @@ de empleados (diccionarios) y muestre su información.
 
 187. **Clase Juego de Cartas**: Diseña una clase JuegoDeCartas para un juego de cartas simple con métodos para barajar, repartir y jugar cartas.
 
-## Listas enlazadas , colas , pilas con POO
+## Estructuras enlazadas con POO
 
 ### Listas Enlazadas
 
@@ -628,7 +628,7 @@ utilizando una lista enlazada que permita insertar elementos con diferentes prio
 
 227. **Árbol B+**: Diseña una clase `ArbolBPlus` que implemente un árbol B+ y permita realizar inserciones, eliminaciones y búsquedas eficientes en un conjunto ordenado de datos.
 
-## + Recursividad
+## Recursividad — nivel avanzado
 
 ### Nivel Avanzado
 
@@ -652,7 +652,7 @@ utilizando una lista enlazada que permita insertar elementos con diferentes prio
 
 237. **Recorrido en Laberinto 3D**: Crea una función recursiva que encuentre una ruta a través de un laberinto tridimensional.
 
-## + Pilas, + Colas
+## Pilas y Colas — nivel avanzado
 
 ### Nivel Avanzado
 
@@ -692,212 +692,212 @@ utilizando una lista enlazada que permita insertar elementos con diferentes prio
 
 ### Nivel Intermedio
 
-249. **Ciclo en Grafo**: Escribe una función que determine si un grafo contiene algún ciclo.
+253. **Ciclo en Grafo**: Escribe una función que determine si un grafo contiene algún ciclo.
 
-250. **Árbol de Expansión Mínima**: Implementa un algoritmo para encontrar el árbol de expansión mínima en un grafo ponderado.
+254. **Árbol de Expansión Mínima**: Implementa un algoritmo para encontrar el árbol de expansión mínima en un grafo ponderado.
 
-251. **Ruta más Corta**: Desarrolla una función que encuentre la ruta más corta entre dos vértices en un grafo ponderado.
+255. **Ruta más Corta**: Desarrolla una función que encuentre la ruta más corta entre dos vértices en un grafo ponderado.
 
-252. **Orden Topológico**: Crea una función que encuentre un orden topológico válido en un grafo dirigido acíclico (DAG).
+256. **Orden Topológico**: Crea una función que encuentre un orden topológico válido en un grafo dirigido acíclico (DAG).
 
-253. **Grafo Bipartito**: Diseña una función que determine si un grafo es bipartito o no.
+257. **Grafo Bipartito**: Diseña una función que determine si un grafo es bipartito o no.
 
 ### Nivel Avanzado
 
-254. **Dijkstra y Bellman-Ford**: Implementa los algoritmos de Dijkstra y Bellman-Ford para encontrar rutas más cortas en un grafo ponderado con pesos positivos y negativos, respectivamente.
+258. **Dijkstra y Bellman-Ford**: Implementa los algoritmos de Dijkstra y Bellman-Ford para encontrar rutas más cortas en un grafo ponderado con pesos positivos y negativos, respectivamente.
 
-255. **Floyd-Warshall**: Desarrolla el algoritmo de Floyd-Warshall para encontrar las rutas más cortas entre todos los pares de vértices en un grafo ponderado.
+259. **Floyd-Warshall**: Desarrolla el algoritmo de Floyd-Warshall para encontrar las rutas más cortas entre todos los pares de vértices en un grafo ponderado.
 
-256. **Flujo Máximo**: Diseña un algoritmo para encontrar el flujo máximo en un grafo de flujo con capacidad en aristas.
+260. **Flujo Máximo**: Diseña un algoritmo para encontrar el flujo máximo en un grafo de flujo con capacidad en aristas.
 
-257. **Coloración de Grafos**: Implementa un algoritmo de coloración de grafos para asignar colores a los vértices de manera que ningún par de vértices adyacentes tenga el mismo color.
+261. **Coloración de Grafos**: Implementa un algoritmo de coloración de grafos para asignar colores a los vértices de manera que ningún par de vértices adyacentes tenga el mismo color.
 
-258. **Algoritmo de Kruskal**: Desarrolla el algoritmo de Kruskal para encontrar el árbol de expansión mínima en un grafo ponderado con conjuntos disjuntos.
+262. **Algoritmo de Kruskal**: Desarrolla el algoritmo de Kruskal para encontrar el árbol de expansión mínima en un grafo ponderado con conjuntos disjuntos.
 
-259. **Algoritmo de Prim**: Crea el algoritmo de Prim para encontrar el árbol de expansión mínima en un grafo ponderado no dirigido.
+263. **Algoritmo de Prim**: Crea el algoritmo de Prim para encontrar el árbol de expansión mínima en un grafo ponderado no dirigido.
 
-260. **Caminos más Cortos en DAG**: Implementa un algoritmo eficiente para encontrar caminos más cortos en un grafo dirigido acíclico (DAG).
+264. **Caminos más Cortos en DAG**: Implementa un algoritmo eficiente para encontrar caminos más cortos en un grafo dirigido acíclico (DAG).
 
-261. **Flujo de Redes**: Desarrolla un algoritmo para calcular el flujo máximo en una red de flujo con múltiples fuentes y sumideros.
+265. **Flujo de Redes**: Desarrolla un algoritmo para calcular el flujo máximo en una red de flujo con múltiples fuentes y sumideros.
 
-262. **Ciclo Euleriano**: Diseña una función que determine si un grafo contiene un ciclo euleriano (un ciclo que visita cada arista exactamente una vez).
+266. **Ciclo Euleriano**: Diseña una función que determine si un grafo contiene un ciclo euleriano (un ciclo que visita cada arista exactamente una vez).
 
-263. **Conectividad de Componentes**: Implementa un algoritmo para encontrar y contar las componentes conexas en un grafo no dirigido.
+267. **Conectividad de Componentes**: Implementa un algoritmo para encontrar y contar las componentes conexas en un grafo no dirigido.
 
 ## Matrices
 
 ### Nivel Medio
 
-264. **Suma de Matrices**: Escribe una función que sume dos matrices y devuelva el resultado.
+268. **Suma de Matrices**: Escribe una función que sume dos matrices y devuelva el resultado.
 
-265. **Producto de Matrices**: Implementa una función para multiplicar dos matrices y obtener el producto.
+269. **Producto de Matrices**: Implementa una función para multiplicar dos matrices y obtener el producto.
 
-266. **Matriz Traspuesta**: Desarrolla una función que calcule la matriz traspuesta de una matriz dada.
+270. **Matriz Traspuesta**: Desarrolla una función que calcule la matriz traspuesta de una matriz dada.
 
-267. **Identificar Matriz Diagonal**: Diseña una función que determine si una matriz cuadrada es diagonal o no.
+271. **Identificar Matriz Diagonal**: Diseña una función que determine si una matriz cuadrada es diagonal o no.
 
-268. **Determinante de una Matriz**: Crea una función que calcule el determinante de una matriz cuadrada.
+272. **Determinante de una Matriz**: Crea una función que calcule el determinante de una matriz cuadrada.
 
 ### Nivel Avanzado
 
-269. **Inversa de una Matriz**: Implementa un algoritmo para calcular la matriz inversa de una matriz cuadrada.
+273. **Inversa de una Matriz**: Implementa un algoritmo para calcular la matriz inversa de una matriz cuadrada.
 
-270. **Matriz de Cofactores**: Desarrolla una función que calcule la matriz de cofactores de una matriz dada.
+274. **Matriz de Cofactores**: Desarrolla una función que calcule la matriz de cofactores de una matriz dada.
 
-271. **Ecuaciones Lineales**: Diseña una función que resuelva un sistema de ecuaciones lineales utilizando matrices y la regla de Cramer.
+275. **Ecuaciones Lineales**: Diseña una función que resuelva un sistema de ecuaciones lineales utilizando matrices y la regla de Cramer.
 
-272. **Factorización LU**: Implementa un algoritmo para la factorización LU de una matriz.
+276. **Factorización LU**: Implementa un algoritmo para la factorización LU de una matriz.
 
-273. **Descomposición QR**: Crea una función que realice la descomposición QR de una matriz.
+277. **Descomposición QR**: Crea una función que realice la descomposición QR de una matriz.
 
 ### Nivel Experto
 
-274. **Eigenvalores y Eigenvectores**: Diseña un programa que calcule los eigenvalores y eigenvectores de una matriz.
+278. **Eigenvalores y Eigenvectores**: Diseña un programa que calcule los eigenvalores y eigenvectores de una matriz.
 
-275. **Matrices Simétricas**: Implementa un algoritmo para verificar si una matriz es simétrica o no.
+279. **Matrices Simétricas**: Implementa un algoritmo para verificar si una matriz es simétrica o no.
 
-276. **Matriz de Rotación 3D**: Desarrolla una función que genere una matriz de rotación 3D para una transformación espacial.
+280. **Matriz de Rotación 3D**: Desarrolla una función que genere una matriz de rotación 3D para una transformación espacial.
 
-277. **Matriz de Covarianza**: Diseña un programa que calcule la matriz de covarianza a partir de un conjunto de datos.
+281. **Matriz de Covarianza**: Diseña un programa que calcule la matriz de covarianza a partir de un conjunto de datos.
 
-278. **Factorización de Cholesky**: Implementa un algoritmo para la factorización de Cholesky de una matriz simétrica definida positiva.
+282. **Factorización de Cholesky**: Implementa un algoritmo para la factorización de Cholesky de una matriz simétrica definida positiva.
 
-279. **Matrices Sparse**: Diseña una estructura de datos para representar matrices sparse (con muchos elementos iguales a cero) y realiza operaciones eficientes en ellas.
+283. **Matrices Sparse**: Diseña una estructura de datos para representar matrices sparse (con muchos elementos iguales a cero) y realiza operaciones eficientes en ellas.
 
-280. **Ranking de Páginas Web**: Implementa el algoritmo PageRank utilizando matrices para calcular el ranking de páginas web.
+284. **Ranking de Páginas Web**: Implementa el algoritmo PageRank utilizando matrices para calcular el ranking de páginas web.
 
-281. **Reducción de Dimensión**: Desarrolla un algoritmo de reducción de dimensión como Análisis de Componentes Principales (PCA) utilizando matrices.
+285. **Reducción de Dimensión**: Desarrolla un algoritmo de reducción de dimensión como Análisis de Componentes Principales (PCA) utilizando matrices.
 
-282. **Interpolación de Matrices**: Diseña una función que realice interpolación de matrices para estimar valores faltantes en una matriz.
+286. **Interpolación de Matrices**: Diseña una función que realice interpolación de matrices para estimar valores faltantes en una matriz.
 
-283. **Matrices Tensoriales**: Implementa operaciones y cálculos con matrices tensoriales de orden superior.
+287. **Matrices Tensoriales**: Implementa operaciones y cálculos con matrices tensoriales de orden superior.
 
-## Funciones de Hash y tablas
+## Hash y Tablas Hash
 
 ### Nivel Básico
 
-284. **Función de Hash Simple**: Implementa una función de hash que convierta una cadena de texto en un número entero utilizando la suma de los valores ASCII de los caracteres.
+288. **Función de Hash Simple**: Implementa una función de hash que convierta una cadena de texto en un número entero utilizando la suma de los valores ASCII de los caracteres.
 
-285. **Tabla de Hash**: Crea una tabla de hash que permita agregar pares clave-valor y recuperar valores por clave.
+289. **Tabla de Hash**: Crea una tabla de hash que permita agregar pares clave-valor y recuperar valores por clave.
 
-286. **Colisión de Hash**: Diseña una función de hash básica que cause colisiones y un método para manejarlas.
+290. **Colisión de Hash**: Diseña una función de hash básica que cause colisiones y un método para manejarlas.
 
-287. **Buscar Elemento en Tabla**: Escribe una función que busque un elemento por clave en una tabla de hash y lo elimine si existe.
+291. **Buscar Elemento en Tabla**: Escribe una función que busque un elemento por clave en una tabla de hash y lo elimine si existe.
 
-288. **Contar Colisiones**: Desarrolla una función que cuente el número de colisiones en una tabla de hash.
+292. **Contar Colisiones**: Desarrolla una función que cuente el número de colisiones en una tabla de hash.
 
 ### Nivel Intermedio
 
-289. **Función de Hash Mejorada**: Mejora la función de hash utilizando técnicas como el método de división o multiplicación y evalúa su rendimiento.
+293. **Función de Hash Mejorada**: Mejora la función de hash utilizando técnicas como el método de división o multiplicación y evalúa su rendimiento.
 
-290. **Tabla de Hash con Resolución de Colisiones**: Implementa una tabla de hash que maneje colisiones utilizando listas enlazadas.
+294. **Tabla de Hash con Resolución de Colisiones**: Implementa una tabla de hash que maneje colisiones utilizando listas enlazadas.
 
-291. **Carga de la Tabla**: Diseña una función que calcule el factor de carga de una tabla de hash y la redimensione si es necesario.
+295. **Carga de la Tabla**: Diseña una función que calcule el factor de carga de una tabla de hash y la redimensione si es necesario.
 
-292. **Eliminar Colisiones**: Desarrolla un algoritmo para reducir o eliminar colisiones en una tabla de hash.
+296. **Eliminar Colisiones**: Desarrolla un algoritmo para reducir o eliminar colisiones en una tabla de hash.
 
-293. **Colisiones de Cadena**: Crea una tabla de hash que maneje colisiones utilizando el método de "cadenas" (buckets).
+297. **Colisiones de Cadena**: Crea una tabla de hash que maneje colisiones utilizando el método de "cadenas" (buckets).
 
 ### Nivel Avanzado
 
-294. **Función de Hash Criptográfica**: Implementa una función de hash criptográfica, como SHA-256, y úsala para almacenar contraseñas de manera segura.
+298. **Función de Hash Criptográfica**: Implementa una función de hash criptográfica, como SHA-256, y úsala para almacenar contraseñas de manera segura.
 
-295. **Tabla de Hash Abierta**: Diseña una tabla de hash abierta que maneje colisiones mediante el uso de sondas y resuelva colisiones de manera eficiente.
+299. **Tabla de Hash Abierta**: Diseña una tabla de hash abierta que maneje colisiones mediante el uso de sondas y resuelva colisiones de manera eficiente.
 
-296. **Tabla de Hash Distribuida**: Crea una tabla de hash distribuida que almacene datos en varios servidores y permita la recuperación eficiente de datos.
+300. **Tabla de Hash Distribuida**: Crea una tabla de hash distribuida que almacene datos en varios servidores y permita la recuperación eficiente de datos.
 
-297. **Hash Map de Frecuencia**: Desarrolla una tabla de hash que cuente la frecuencia de elementos en una lista o conjunto de datos.
+301. **Hash Map de Frecuencia**: Desarrolla una tabla de hash que cuente la frecuencia de elementos en una lista o conjunto de datos.
 
-298. **Tabla de Hash Persistente**: Implementa una tabla de hash que permita versionar datos y consultar versiones anteriores.
+302. **Tabla de Hash Persistente**: Implementa una tabla de hash que permita versionar datos y consultar versiones anteriores.
 
 ### Nivel Experto
 
-299. **Estructura de Hash Compacta**: Diseña una estructura de hash compacta que optimice el uso de memoria para grandes conjuntos de datos.
+303. **Estructura de Hash Compacta**: Diseña una estructura de hash compacta que optimice el uso de memoria para grandes conjuntos de datos.
 
-300. **Tabla de Hash con Búsqueda Aproximada**: Crea una tabla de hash que permita buscar elementos aproximados utilizando técnicas como el hashing localidad-sensitivo (LSH).
+304. **Tabla de Hash con Búsqueda Aproximada**: Crea una tabla de hash que permita buscar elementos aproximados utilizando técnicas como el hashing localidad-sensitivo (LSH).
 
-301. **Tabla de Hash Inmutable**: Implementa una tabla de hash inmutable que no pueda ser modificada una vez creada.
+305. **Tabla de Hash Inmutable**: Implementa una tabla de hash inmutable que no pueda ser modificada una vez creada.
 
-302. **Hashing de Datos Grandes**: Desarrolla un algoritmo de hashing que funcione eficientemente para datos grandes que no caben en memoria principal.
+306. **Hashing de Datos Grandes**: Desarrolla un algoritmo de hashing que funcione eficientemente para datos grandes que no caben en memoria principal.
 
-303. **Hash Map con Comprimido de Huffman**: Diseña una tabla de hash que utilice el algoritmo de compresión de Huffman para representar las claves de manera eficiente.
+307. **Hash Map con Comprimido de Huffman**: Diseña una tabla de hash que utilice el algoritmo de compresión de Huffman para representar las claves de manera eficiente.
 
-## + Archivos
+## Archivos
 
 ### Lectura de Archivos
 
-304. Lee un archivo de texto y muestra su contenido en la consola.
+308. Lee un archivo de texto y muestra su contenido en la consola.
 
-305. Cuenta la cantidad de líneas en un archivo de texto.
+309. Cuenta la cantidad de líneas en un archivo de texto.
 
-306. Encuentra y muestra las palabras únicas en un archivo de texto.
+310. Encuentra y muestra las palabras únicas en un archivo de texto.
 
-307. Lee un archivo CSV y almacena sus datos en una lista de diccionarios.
+311. Lee un archivo CSV y almacena sus datos en una lista de diccionarios.
 
-308. Lee un archivo JSON y conviértelo en un diccionario Python.
+312. Lee un archivo JSON y conviértelo en un diccionario Python.
 
 ### Escritura de Archivos
 
-309. Crea un archivo de texto y escribe una lista de nombres en él.
+313. Crea un archivo de texto y escribe una lista de nombres en él.
 
-310. Guarda datos en un archivo CSV a partir de una lista de diccionarios.
+314. Guarda datos en un archivo CSV a partir de una lista de diccionarios.
 
-311. Escribe un diccionario en un archivo JSON.
+315. Escribe un diccionario en un archivo JSON.
 
 ### Procesamiento de Archivos
 
-312. Calcula la suma de todos los números en un archivo de números separados por comas.
+316. Calcula la suma de todos los números en un archivo de números separados por comas.
 
-313. Encuentra la palabra más larga en un archivo de texto.
+317. Encuentra la palabra más larga en un archivo de texto.
 
-314. Dada una lista de nombres en un archivo, organízalos alfabéticamente y guárdalos en otro archivo.
+318. Dada una lista de nombres en un archivo, organízalos alfabéticamente y guárdalos en otro archivo.
 
-315. Lee un archivo XML y extrae información específica de él.
+319. Lee un archivo XML y extrae información específica de él.
 
 ### Estructuras de Datos
 
-316. Lee un archivo de registros de estudiantes y almacena la información en una lista de objetos Estudiante.
+320. Lee un archivo de registros de estudiantes y almacena la información en una lista de objetos Estudiante.
 
-317. Crea una tabla hash para almacenar información de empleados a partir de un archivo CSV.
+321. Crea una tabla hash para almacenar información de empleados a partir de un archivo CSV.
 
-318. Lee un archivo de registros de ventas y almacena los datos en una matriz.
+322. Lee un archivo de registros de ventas y almacena los datos en una matriz.
 
-319. Construye un árbol binario de búsqueda a partir de un archivo de datos numéricos.
+323. Construye un árbol binario de búsqueda a partir de un archivo de datos numéricos.
 
 ### Búsquedas y Filtrado
 
-320. Lee un archivo de registros de empleados y busca a todos los empleados con un salario superior a cierta cantidad.
+324. Lee un archivo de registros de empleados y busca a todos los empleados con un salario superior a cierta cantidad.
 
-321. Filtra los registros de un archivo de registros de ventas por fecha y almacena los datos filtrados en otro archivo.
+325. Filtra los registros de un archivo de registros de ventas por fecha y almacena los datos filtrados en otro archivo.
 
-322. Busca y muestra todos los correos electrónicos válidos en un archivo de texto.
+326. Busca y muestra todos los correos electrónicos válidos en un archivo de texto.
 
 ### Resúmenes y Estadísticas
 
-323. Calcula la suma y el promedio de una columna de números en un archivo CSV.
+327. Calcula la suma y el promedio de una columna de números en un archivo CSV.
 
-324. Encuentra el valor mínimo y máximo en un archivo de datos numéricos y muestra sus ubicaciones.
+328. Encuentra el valor mínimo y máximo en un archivo de datos numéricos y muestra sus ubicaciones.
 
-325. Calcula el total de ventas por producto a partir de un archivo de registros de ventas y almacena los resultados en un diccionario.
+329. Calcula el total de ventas por producto a partir de un archivo de registros de ventas y almacena los resultados en un diccionario.
 
 ### Transformación de Datos
 
-326. Convierte un archivo de registros de empleados en un archivo JSON.
+330. Convierte un archivo de registros de empleados en un archivo JSON.
 
-327. Lee un archivo CSV con coordenadas geográficas y conviértelo en un archivo KML para su visualización en Google Earth.
+331. Lee un archivo CSV con coordenadas geográficas y conviértelo en un archivo KML para su visualización en Google Earth.
 
-328. Lee un archivo de datos en formato JSON y crea un archivo CSV con los mismos datos.
+332. Lee un archivo de datos en formato JSON y crea un archivo CSV con los mismos datos.
 
 ### Procesamiento Avanzado
 
-329. Extrae datos de imágenes a partir de un archivo ZIP que contiene múltiples imágenes.
+333. Extrae datos de imágenes a partir de un archivo ZIP que contiene múltiples imágenes.
 
-330. Analiza un archivo de registro de acceso web y muestra las estadísticas de uso por usuario.
+334. Analiza un archivo de registro de acceso web y muestra las estadísticas de uso por usuario.
 
-331. Crea un programa que pueda realizar operaciones de consulta SQL en un archivo de base de datos SQLite.
+335. Crea un programa que pueda realizar operaciones de consulta SQL en un archivo de base de datos SQLite.
 
 ### Procesamiento de Grandes Volúmenes de Datos
 
-332. Lee un archivo de registro de transacciones financiero y calcula el saldo final de cada cuenta de cliente.
+336. Lee un archivo de registro de transacciones financiero y calcula el saldo final de cada cuenta de cliente.
 
-333. Procesa un archivo de registro de sensores IoT en tiempo real y almacena los datos en una base de datos NoSQL.
+337. Procesa un archivo de registro de sensores IoT en tiempo real y almacena los datos en una base de datos NoSQL.
